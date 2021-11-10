@@ -29,7 +29,6 @@ public class WebInit implements WebApplicationInitializer {
 		
 		appServlet.setLoadOnStartup(1);
 		appServlet.addMapping("/");
-
 	}
 
 }

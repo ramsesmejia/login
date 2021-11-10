@@ -59,7 +59,7 @@ public class LoginController {
 		usuario.setPassword(passEncrpt);
 		usuario.setCliente(1f);
 		usuario.setFechaAlta(LocalDate.now());
-
+		
 		Random random = new Random();
 		int i = random.nextInt(100);
 		String id = "login" + i;
