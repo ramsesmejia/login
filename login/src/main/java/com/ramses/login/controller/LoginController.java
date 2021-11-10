@@ -58,6 +58,7 @@ public class LoginController {
 		String passEncrpt = usuarioUtil.encodePassBase64(usuario.getPassword());
 		usuario.setPassword(passEncrpt);
 		usuario.setCliente(1f);
+		usuario.setFechaAlta(LocalDate.now());
 
 		Random random = new Random();
 		int i = random.nextInt(100);
